@@ -1,0 +1,37 @@
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8e98a3;
+    width: 100vw;
+    height: 100vh;
+}
+.flyer{
+    display: flex;
+    flex-direction: column;
+    background-color: #2B7DFA;
+    width: 35rem;
+    height: 60rem;
+    border-radius: 1.6rem;
+    padding: 0 2rem;
+}
+.qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 1.6rem;
+}
+
+.text{
+    text-align: center;
+
+}
+.text h1{
+font-size: 2.5rem;
+;
+}
+.text p{
+    padding: 1rem;
+    font-size: 1.7rem;
+}
