@@ -1,21 +1,36 @@
-.background{
+.background {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8e98a3;
+    background: url(./images/backgroundImage.jpg) no-repeat;
+    background-size: cover;
+    background-position: 10%;
     width: 100vw;
     height: 100vh;
 }
-.flyer{
+
+.flyer {
     display: flex;
     flex-direction: column;
-    background-color: #2B7DFA;
+    background: rgba(227, 236, 234, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    ;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     width: 35rem;
     height: 60rem;
     border-radius: 1.6rem;
     padding: 0 2rem;
 }
-.qrcode{
+
+.qrcode {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,15 +38,17 @@
     border-radius: 1.6rem;
 }
 
-.text{
+.text {
     text-align: center;
 
 }
-.text h1{
-font-size: 2.5rem;
-;
+
+.text h1 {
+    font-size: 2.5rem;
+    ;
 }
-.text p{
+
+.text p {
     padding: 1rem;
     font-size: 1.7rem;
 }
